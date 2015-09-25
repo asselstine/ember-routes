@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Brendan Asselstine"]
   spec.email         = ["mail.asselstine@gmail.com"]
 
-  spec.summary       = %q{Generate path helpers using a similar syntax to Ember routes.}
+  spec.summary       = %q{Generate Ruby path helpers using a similar syntax as Ember routes.}
   spec.description   = %q{The ember-routes gem was created to facilitate easier testing with
     Capybara by providing path helpers for the Ember app.  The path helpers are described in a similar syntax to the Ember routes engine.}
   spec.homepage      = "https://github.com/asselstine/ember-routes"
