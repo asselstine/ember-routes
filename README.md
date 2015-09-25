@@ -29,6 +29,8 @@ Or install it yourself as:
 To define your Ember application routes, call `EmberRoutes.configure` like so:
 
 ```
+require 'ember_routes'
+
 EmberRoutes.configure do |config|
   config.prefix = prefix # A string to prefix the path helper names.  Defaults to ''
   config.base_url = base_url # The base url for the application, it will prefix the paths. Defaults to ''
